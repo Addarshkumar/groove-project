@@ -16,7 +16,7 @@
 #bg-image{
     background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png);
     height: 665px;
-    width: 1530px;
+    width: 100%;
     background-size: 100% 100%;
 }
 #welcome{
@@ -50,7 +50,7 @@ a{
 }
 #in-store{
     height: 900px;
-    width: 1530px;
+    width: 100%;
     text-align: center;
     
 }
@@ -94,7 +94,7 @@ th{
     font-size: 30px;
 }
 .first{
-    width: 20px;
+    width: 40px;
 }
 #buy-now{
     position: relative;
@@ -103,6 +103,7 @@ th{
     width: 150px;
     background-color: rgb(0, 255, 115);
     text-size-adjust: 50px;
+    border-radius: 25px;
 }
 tr:hover{
     background-color: rgb(211, 195, 195);
@@ -131,3 +132,7 @@ tr:hover{
     display: none;
     
 }
+th:hover{
+    background-color: rgb(21, 127, 42);
+}
+
